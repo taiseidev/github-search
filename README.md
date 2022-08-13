@@ -23,7 +23,7 @@ https://docs.github.com/ja/rest/search#search-repositories<br><br>
         - dio
         - retrofit
 
-### 余力があれば<br><br>
+### 余力があれば追加<br><br>
 
 - Firebase
     - Firebase Auth

@@ -1,23 +1,26 @@
 name: flutter_project_sample
 description: A new Flutter project.
-
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
   sdk: ">=2.17.1 <3.0.0"
-
 dependencies:
   cupertino_icons:
   flutter:
     sdk: flutter
+  cupertino_icons:
+  freezed_annotation:
+  json_annotation:
 
 dev_dependencies:
   flutter_lints:
   flutter_test:
     sdk: flutter
-  pedantic_mono:
+  flutter_lints:
+  build_runner:
+  freezed:
+  json_serializable:
 
 flutter:
   uses-material-design: true

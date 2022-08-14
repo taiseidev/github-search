@@ -20,6 +20,6 @@ jobs:
           java-version: "12.x"
       - uses: subosito/flutter-action@v1
         with:
-          flutter-version: "1.22.6"
+          flutter-version: "3.0.4"
       - name: flutter unit test
         run: flutter test test/unit_test.dart

@@ -23,7 +23,7 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           flutter-version: "1.22.6"
-      - name: fvm flutter pub get
-        run: fvm flutter pub flutter pub get
+      - name: flutter pub get
+        run: flutter pub flutter pub get
       - name: flutter widget test
         run: flutter test test/widget_test.dart

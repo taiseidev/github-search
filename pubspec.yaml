@@ -11,6 +11,7 @@ dependencies:
   cupertino_icons:
   freezed_annotation:
   json_annotation:
+  flutter_riverpod: ^1.0.4
 
 dev_dependencies:
   flutter_test:

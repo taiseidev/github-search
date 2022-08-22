@@ -10,7 +10,7 @@ class Owner with _$Owner {
     required String login,
 
     // ユーザープロフィール
-    @JsonKey(name: 'avatar_url') required String avatarUrl,
+    required String avatarUrl,
   }) = _Owner;
 
   factory Owner.fromJson(Map<String, dynamic> json) => _$OwnerFromJson(json);

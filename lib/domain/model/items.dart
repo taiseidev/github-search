@@ -1,5 +1,5 @@
-import 'package:flutter_project_sample/src/domain/value/owner.dart';
-import 'package:flutter_project_sample/src/domain/value/repository_language.dart';
+import 'package:flutter_project_sample/domain/value/owner.dart';
+import 'package:flutter_project_sample/domain/value/repository_language.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'items.freezed.dart';
@@ -7,7 +7,6 @@ part 'items.g.dart';
 
 @freezed
 class Items with _$Items {
-  @JsonSerializable(fieldRename: FieldRename.snake, checked: true)
   const factory Items({
     // レポジトリのID
     required int id,
@@ -16,7 +15,7 @@ class Items with _$Items {
     required String name,
 
     // ユーザ名+レポジトリ名
-    @JsonKey(name: 'full_name') required String fullName,
+    required String fullName,
 
     // Owner情報
     required Owner owner,

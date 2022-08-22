@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project_sample/src/config/color_config.dart';
+import 'package:flutter_project_sample/config/color_config.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'repository_language.freezed.dart';

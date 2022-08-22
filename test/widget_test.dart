@@ -7,18 +7,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_project_sample/main.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // BuildContextを取得
-    final context = tester.element(
-        find.byWidgetPredicate((Widget widget) => widget is MyHomePage));
 // ProviderContainerを取得
-    final container = ProviderScope.containerOf(context);
 // ProviderContainerからproviderをreadしてsomeStateを取得
-    final counter = container.read(counterProvider);
     // Build our app and trigger a frame.
     await tester.pumpWidget(MyHomePage());
 

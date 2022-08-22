@@ -1,5 +1,5 @@
-import 'package:flutter_project_sample/src/domain/value/owner.dart';
-import 'package:flutter_project_sample/src/domain/value/repository_language.dart';
+import 'package:flutter_project_sample/domain/value/owner.dart';
+import 'package:flutter_project_sample/domain/value/repository_language.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'items.freezed.dart';
